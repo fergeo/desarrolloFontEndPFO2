@@ -10,7 +10,7 @@ const apellido = document.getElementById("apellido");
 const email = document.getElementById("email");
 const telefono = document.getElementById("telefono");
 const submit = document.getElementById("submit");
-const themeToggle = document.getElementById('theme-toggle');
+
 
 
 submit.addEventListener("click", function() {
@@ -105,19 +105,6 @@ submit.addEventListener("click", function() {
 
 
 
-themeToggle.addEventListener('change', () => {
-    if (themeToggle.checked) {
-        document.body.classList.add('dark-mode');
-        localStorage.setItem('theme', 'dark');
-    } else {
-        document.body.classList.remove('dark-mode');
-        localStorage.setItem('theme', 'light');
-    }
-});
 
-if (localStorage.getItem('theme') === 'dark') {
-    document.body.classList.add('dark-mode');
-    themeToggle.checked = true;
-}
 
 

@@ -32,8 +32,11 @@ body{
 
     padding-left: 60px;
 
+    
+    /*
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    */
 }
 
 header{
@@ -60,16 +63,33 @@ nav a{
     color: white
 }
 
+.hide-unhide{
+    width: 3%;
+    height: 15%;
+}
+
 .texto{
-    font-size: 24px;
+    font-size: 1rem;
 }
 
 
 /*Estilo para la sección de Sobre MI*/
 #sombreMi{
-    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
+    padding-top: 3%;
+}
+
+#tituloSobreMi, #tituloProyectos, #tituloHabilidades, #tituloContacto, #tituloPeliculas{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#sombreMi h2, #proyectos h2, #tituloHabilidades h2, #tituloContacto h2, #tituloPeliculas h2{ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2%;
 }
 
 #contenidoSobreMi{
@@ -100,14 +120,19 @@ img:hover, img:focus {
 
 /*Estilo para la sección de proyectos*/
 #proyectos{
-    margin-top: 30px;
+    margin-top: 7%;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-#proyectos :last-child{
-    margin-top: 20px;
+#tituloProyectos{
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#contenidoProyectos :last-child{
+    margin-top: 2%;
 }
 
 .tarjeta{
@@ -133,25 +158,52 @@ img:hover, img:focus {
 
 /*Estilo para la sección de habilidades*/
 #habilidades{
-    padding-top: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#tablaHabilidades{
+    margin-top: 2%;
+    font-size: 2rem;
 }
 
 table{
-    border-style: double;
-    border-width: 2px;
-    border-color: blue;
-    text-align: center;
+    justify-content: center;
+}
+
+#mainHeader {
+    background-color: blue;
+    color: white;
+}
+
+#secondHeader {
+    background-color: lightskyblue;
+    color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gray;
+    color: white;
 }
 
 
 /*Estilo para la sección de contacto*/
 #contacto{
-    margin-top: 40px;
-    background-color: aqua;
+    background-color: blue;
     text-align: center;
-    width: 600px;
-    border-radius: 20px;
+    width: 60%;
+    border-radius: 5%;
     margin: 0 auto; 
+}
+
+#tituloContacto, #tituloPeliculas{
+    padding-top: 5%;
+    justify-content: center;
 }
 
 input{
@@ -173,11 +225,14 @@ input{
 
 button{
     width: 40%;
-    font-size: 28px;
+    font-size: 2rem;
 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
 
     border-radius: 50px;
     background-color: blueviolet;
@@ -186,31 +241,23 @@ button{
 
 
 /*Estilo para la sección de peliculas favoritas*/
-.pelicula{
-    width: 28%;
-    height: 400px;
-    margin-top: 20px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: cadetblue;
-    padding: 20px;
-}
-
-#peliculas{
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-#peliculas img{
-    width: 90%;
-    height: 50%;
-}
-
 #peliculasFatvoritas{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.pelicula{
+    width: 30%;
+    height: 5%;
+    border-radius: 5%;
+    justify-content: center;
+    background-color: white;
+}
+
+.imgPeliculas{
+    width: 60%;
+    height: 5%;
 }
 
 .pelicula p{
@@ -232,7 +279,8 @@ footer{
 
 /*Utilizacion de media query para el cambio de aspecto en algunas secciones
 para su mejor vizualizacion en dispositivos mas pequeños*/
-@media (max-width: 800px) {
+/*
+    @media (max-width: 800px) {
     #contenidoSobreMi, #peliculasFatvoritas{
         display: flexbox;
         flex-direction: column;
@@ -249,6 +297,8 @@ para su mejor vizualizacion en dispositivos mas pequeños*/
         height: 500px;
     }
 }
+*/
+
 
 
 

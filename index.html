@@ -48,6 +48,8 @@
             <!--Sección de Sobre Mi. Se detalla un poco mis caracteristicas como desarrollador.*/-->
             <section id="sombreMi">
                 <div id="tituloSobreMi">
+                    <img src="img/unhide.png" alt="Desocultar" class="hide-unhide" id="unhideSobreMi">
+                    <img src="img/hide.png" alt="Ocultar" class="hide-unhide" id="hideSobreMi">
                     <h2>Sobre Mi</h2>    
                 </div>
                 <div id="contenidoSobreMi">
@@ -62,57 +64,78 @@
 
             <!--Sección de Proyectos. De pasarse dicho proyecto a React cada tarjeta podria ser un-->
             <section id="proyectos">
-                <h2>Proyectos</h2>
-                <div class="tarjeta">
-                    <img src="img/proyectoCaC.png" alt="Proyecto Codo a Codo">
-                    <p>
-                        Proyecto de Codo a Codo del curso Full Stack Java. En la cual se empezo por el desarrollo del front para una plataforma similiar a la de Netflix.
-                    </p>
+                <div id="tituloProyectos">
+                    <img src="img/unhide.png" alt="Desocultar" class="hide-unhide" id="unhideProyectos">
+                    <img src="img/hide.png" alt="Ocultar" class="hide-unhide" id="hideProyectos">
+                    <h2>Proyectos</h2>    
                 </div>
-                <div class="tarjeta">
-                    <img src="img/encriptadorTexto.png" alt="Encriptador de Texto">
-                    <p>Encriptador de Texto realizado para el curso de Alura para su etapa inicial.</p>
+
+                <div id="contenidoProyectos">
+                    <div class="tarjeta">
+                        <img src="img/proyectoCaC.png" alt="Proyecto Codo a Codo">
+                        <p>
+                            Proyecto de Codo a Codo del curso Full Stack Java. En la cual se empezo por el desarrollo del front para una plataforma similiar a la de Netflix.
+                        </p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/encriptadorTexto.png" alt="Encriptador de Texto">
+                        <p>Encriptador de Texto realizado para el curso de Alura para su etapa inicial.</p>
+                    </div>
                 </div>
             </section>
 
             <!--Sección de Habilideades-->
             <section id="habilidades">
-                <h2>Habilidades</h2>
+                <div id="tituloHabilidades">
+                    <img src="img/unhide.png" alt="Desocultar" class="hide-unhide" id="unhideHabilidades">
+                    <img src="img/hide.png" alt="Ocultar" class="hide-unhide" id="hideHabilidades">
+                    <h2>Habilidades</h2>    
+                </div>
+                
                 <table id="tablaHabilidades" class="texto">
-                    <tr>
-                        <td colspan="2">Tecnologias</td>
-                    </tr>
-                    <tr> 
-                        <td>Dominadas</td>
-                        <td>Deseo aprender</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <ol>
-                                <li>PL/SQL</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>PHP</li>
-                            </ol>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>React.Js</li>
-                                <li>Node.Js</li>
-                                <li>Vue</li>
-                                <li>TypeScript</li>
-                                <li>TailWind</li>
-                            </ul>
-                        </td>
-                    </tr>
+                    <thead>
+                        <tr id="mainHeader">
+                            <th colspan="2">Tecnologias</th>
+                        </tr>
+                        <tr id="secondHeader"> 
+                            <th>Dominadas</th>
+                            <th>Deseo aprender</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ol>
+                                    <li>PL/SQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>PHP</li>
+                                </ol>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>React.Js</li>
+                                    <li>Node.Js</li>
+                                    <li>Vue</li>
+                                    <li>TypeScript</li>
+                                    <li>TailWind</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </section>
 
             <!--Sección de contacto-->
             <section id="contacto">
-                <h2>contacto</h2>
-                <form>
+                <div id="tituloContacto">
+                    <img src="img/unhide.png" alt="Desocultar" class="hide-unhide" id="unhideContacto">
+                    <img src="img/hide.png" alt="Ocultar" class="hide-unhide" id="hideContacto">
+                    <h2>Contacto</h2>    
+                </div>
+                
+                <form id="formContacto">
                     <div>
                         <input type="text" id="nombre"  placeholder="Tu Nombre" required>
                     </div>
@@ -136,11 +159,15 @@
 
             <!--Sección Peliculas Favoritas-->
             <section id="peliculas">
-                <h2>Peliculas Favoritas</h2>
+                <div id="tituloPeliculas">
+                    <img src="img/unhide.png" alt="Desocultar" class="hide-unhide" id="unhidePeliculas">
+                    <img src="img/hide.png" alt="Ocultar" class="hide-unhide" id="hidePeliculas">    
+                    <h2>Peliculass</h2>    
+                </div>
 
                 <div id="peliculasFatvoritas">
                     <div class="pelicula">
-                        <img src="img/homeAlone.jpg" alt="Mi Pobre Angelito">
+                        <img src="img/homeAlone.jpg" alt="Mi Pobre Angelito" class="imgPeliculas">
                         <h3>Mi Pobre Angelito</h3>
                         <p>
                             Un travieso niño de ocho años debe proteger su casa de unos ladrones cuando es accidentalmente olvidado en casa por su familia cuando se van de vacaciones de Navidad.
@@ -148,7 +175,7 @@
                     </div>
     
                     <div class="pelicula">
-                        <img src="img/backtoTheFuture.jpg" alt="Volver al Futuro">
+                        <img src="img/backtoTheFuture.jpg" alt="Volver al Futuro" class="imgPeliculas">
                         <h3>Volver al Futuro</h3>
                         <p>
                             Marty McFly, un estudiante de 17 años, es enviado accidentalmente treinta años al pasado en un artefacto inventado por su amigo.
@@ -156,7 +183,7 @@
                     </div>
     
                     <div class="pelicula">
-                        <img src="img/nightAtRouxbury.jpg" alt="Una noche en el Rouxbery">
+                        <img src="img/nightAtRouxbury.jpg" alt="Una noche en el Rouxbery" class="imgPeliculas">
                         <h3>Una noche en el Rouxbery</h3>
                         <p>
                             Dos hermanos sueñan con tener su propio club de striptease o, al menos, conseguir entrar el más moderno y lujoso de la ciudad: el Roxbury.
@@ -184,6 +211,8 @@
             </div>
         </footer>
         
-        <script src="/script/script.js"></script>
+        <script src="/script/scriptValidacion.js"></script>
+        <script src="/script/scriptModo.js"></script>
+        <script src="/script/scriptMostrarOno.js"></script>
     </body>
 </html>
