@@ -20,7 +20,7 @@ T se utiliza regez para verificar un formato especifico dependiendo el campo que
 Justificación: Esto se verifica en conjunto con las validaciones de los campos, si se verifica que estan todos los campos completdos correctamente y con el formato que corresponda segun el campo.
 
 # Ocultar y/o Mostrar Contenido:
-- [ ] Crear un botón que permita ocultar o mostrar contenido en cualquier sección, como en la presentación personal o las tarjeta.
+- [X] Crear un botón que permita ocultar o mostrar contenido en cualquier sección, como en la presentación personal o las tarjeta.
 Justificación: Se agrega una imagen en la cual si se le da click se va a ocultar la sección que corresponde y se alterna entre ocultar o mostrar.
 
 
