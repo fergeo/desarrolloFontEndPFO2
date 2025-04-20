@@ -23,8 +23,14 @@ Justificación: Esto se verifica en conjunto con las validaciones de los campos,
 - [X] Crear un botón que permita ocultar o mostrar contenido en cualquier sección, como en la presentación personal o las tarjeta.
 Justificación: Se agrega una imagen en la cual si se le da click se va a ocultar la sección que corresponde y se alterna entre ocultar o mostrar.
 
+Se utilizo la api de API con una apikey
+
+
 # Creación de Contenido Dinámico:
-- [ ] Generar dinámicamente las tarjetas, el listado de habilidades o las películas favoritas utilizando datos de un array en JavaScript
+- [ ] Generar dinámicamente las tarjetas, el listado de habilidades o las películas favoritas utilizando datos de un array en JavaScript.
+
+# Filtros en el Contenido:
+- [ ] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
 
 
 
