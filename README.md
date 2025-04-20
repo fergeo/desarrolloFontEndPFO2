@@ -32,12 +32,6 @@ Se utilizo la api de API con una apikey
 # Filtros en el Contenido:
 - [ ] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
 
-# Creación de Contenido Dinámico:
-○ Generar dinámicamente las tarjetas, el listado de habilidades o las películas favoritas utilizando datos de un array en JavaScript.
-
-# Filtros en el Contenido:
-- [ ] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
-
 # Temporizador o Reloj:
 - [X] Incluir un temporizador que indique el tiempo restante para la entrega del trabajo práctico.
 
