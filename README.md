@@ -32,11 +32,23 @@ Se utilizo la api de API con una apikey
 # Filtros en el Contenido:
 - [ ] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
 
+# Creación de Contenido Dinámico:
+○ Generar dinámicamente las tarjetas, el listado de habilidades o las películas favoritas utilizando datos de un array en JavaScript.
 
+# Filtros en el Contenido:
+- [ ] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
 
+# Temporizador o Reloj:
+- [X] Incluir un temporizador que indique el tiempo restante para la entrega del trabajo práctico.
+
+# Contador de Visitas:
+- [X] Implementar un contador de visitas a la página utilizando JavaScript y LocalStorage.
+
+# Animaciones Dinámicas:
+- [ ] Usar JavaScript para agregar animaciones a elementos específicos, como las tarjetas o los botones.
 
 # Galería de Imágenes:
-[ ] Implementar una galería dinámica con imágenes que se puedan navegar (por ejemplo, utilizando flechas para avanzar o retroceder).
+- [ ] Implementar una galería dinámica con imágenes que se puedan navegar (por ejemplo, utilizando flechas para avanzar o retroceder).
 
 
 
