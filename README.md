@@ -9,7 +9,7 @@ Checklist - Práctica Formativa Obligatoria 2
 - [X] Validar los campos obligatorios del formulario de contacto (Nombre, Apellido, Email, Teléfono) antes de enviarlo.
 - [X] Mostrar mensajes de error si algún campo está incompleto.
 
-# 2. odo Oscuro/Claro:
+# 2. Modo Oscuro/Claro:
 - [X] Implementar un botón o switch que permita alternar entre los modos oscuro y claro de la página.
 - [X] Recordar la preferencia del usuario utilizando LocalStorage.
 
