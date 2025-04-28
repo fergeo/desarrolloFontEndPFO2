@@ -1,5 +1,4 @@
-Desarrollo de Practica Formativa 2
-Desarrollo de la Practica Formativa 2. Practica para el uso de JavaScript.
+# Desarrollo de la Practica Formativa 2. Practica para el uso de JavaScript.
 
 Link Github Pages: https://fergeo.github.io/desarrolloFontEndPFO2
 
