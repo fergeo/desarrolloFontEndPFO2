@@ -53,7 +53,8 @@ submit.addEventListener("click", function() {
 
     switch (validar){
         case 0:
-            alert("Datos Enviados");
+            //alert("Datos Enviados");
+            mostrarPopup();
             nombre.value = "";
             apellido.value = "";
             email.value = "";
@@ -102,6 +103,15 @@ submit.addEventListener("click", function() {
     }
 
 });
+
+
+function mostrarPopup() {
+    document.getElementById('popup-fondo').style.display = 'flex';
+}
+
+function cerrarPopup() {
+    document.getElementById('popup-fondo').style.display = 'none';
+}
 
 
 

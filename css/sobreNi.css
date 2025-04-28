@@ -1,0 +1,42 @@
+/*Estilo para la sección de Sobre MI*/
+#sombreMi{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+#tituloSobreMi, #tituloProyectos, #tituloHabilidades, #tituloContacto, #tituloPeliculas{
+    display: flex;
+    flex-direction: row;
+}
+
+#sombreMi h2, #proyectos h2, #tituloHabilidades h2, #tituloContacto h2, #tituloPeliculas h2{ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2%;
+}
+
+#contenidoSobreMi{
+    display: flex;
+    flex-direction: row;
+}
+
+#contenidoSobreMi img{
+    width: 20%;
+    height: 20%;
+    border-radius: 100px;
+}
+
+img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover, img:focus {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+#parrafoSobreMi{
+    margin-left: 50px;
+    width: 70%;
+}

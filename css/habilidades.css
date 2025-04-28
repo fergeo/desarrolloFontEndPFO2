@@ -1,0 +1,34 @@
+/*Estilo para la sección de Habilidades*/
+#habilidades{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#tablaHabilidades{
+    margin-top: 2%;
+    font-size: 2rem;
+}
+
+table{
+    justify-content: center;
+}
+
+#mainHeader {
+    background-color: blue;
+    color: white;
+}
+
+#secondHeader {
+    background-color: lightskyblue;
+    color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gray;
+    color: white;
+}

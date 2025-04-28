@@ -13,7 +13,19 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
         <!--Asociación al archivo de estilos CSS.-->
+        <!--Estilos generales de la pagina-->
         <link rel="stylesheet" href="css/style.css">
+        <!--Estilos que generan el modo oscuro-->
+        <link rel="stylesheet" href="css/modoOscuro.css">
+        <!--Estilos de la sección Sobre Mi-->
+        <link rel="stylesheet" href="css/sobreNi.css">
+        <!--Estilos de la sección Habilidades-->
+        <link rel="stylesheet" href="css/habilidades.css">
+        <!--Estilos de la sección Contacto-->
+        <link rel="stylesheet" href="css/contacto.css">
+        <!--Estilos de la sección Peliculas Favoritas-->
+        <link rel="stylesheet" href="css/peliculas.css">
+        
 
         <title>Portfolio Personal</title>
     </head>
@@ -26,10 +38,18 @@
 
             <div class="modo-nav">
                 <div class="modo-oscuro">
-                    <input type="checkbox" id="theme-toggle">
+                    <input type="checkbox" id="cambiarModo">
                     <label>Modo oscuro</label>
                 </div>
                 
+                <div id="temporizador">
+                    <p>Cuenta Regresiva</p>
+                    <p id="contador"></p>
+                </div>
+
+                <div id="visitas">
+                    <p>Has visitado esta página <span id="visitante">0</span> veces.</p></p>
+                </div>
                 
 
                 <nav>
@@ -44,6 +64,13 @@
         </header>
 
         <main>
+
+            <div id="popup-fondo" onclick="cerrarPopup()">
+                <div id="popup-contenido" onclick="event.stopPropagation()">
+                    <h2>Datos Enviados</h2>
+                    <button onclick="cerrarPopup()">Cerrar</button>
+                </div>
+            </div>
 
             <!--Sección de Sobre Mi. Se detalla un poco mis caracteristicas como desarrollador.*/-->
             <section id="sombreMi">
@@ -93,37 +120,6 @@
                 </div>
                 
                 <table id="tablaHabilidades" class="texto">
-                    <thead>
-                        <tr id="mainHeader">
-                            <th colspan="2">Tecnologias</th>
-                        </tr>
-                        <tr id="secondHeader"> 
-                            <th>Dominadas</th>
-                            <th>Deseo aprender</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <ol>
-                                    <li>PL/SQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>PHP</li>
-                                </ol>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>React.Js</li>
-                                    <li>Node.Js</li>
-                                    <li>Vue</li>
-                                    <li>TypeScript</li>
-                                    <li>TailWind</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
                 </table>
             </section>
 
@@ -152,7 +148,7 @@
                     </div>
 
                     <div>
-                        <button id="submit">Submit</button>
+                        <button  class="btnSubmit" id="submit">Submit</button>
                     </div>
                 </form>
             </section>
@@ -165,8 +161,15 @@
                     <h2>Peliculass</h2>    
                 </div>
 
+                <div id="btnPeliculas">
+                    <button class="boton anterior hide" id="btnprev">Anterior</button>
+                    <button class="boton siguiente" id="btnnext">Siguiente</button> 
+                    <p id="pagina">Pagina 1</p>
+                </div>  
+
                 <div id="peliculasFatvoritas">
-                    <div class="pelicula">
+                <!--
+                        <div class="pelicula">
                         <img src="img/homeAlone.jpg" alt="Mi Pobre Angelito" class="imgPeliculas">
                         <h3>Mi Pobre Angelito</h3>
                         <p>
@@ -189,6 +192,7 @@
                             Dos hermanos sueñan con tener su propio club de striptease o, al menos, conseguir entrar el más moderno y lujoso de la ciudad: el Roxbury.
                         </p>
                     </div>
+                -->    
                 </div>
             </section>
         </main>
@@ -214,5 +218,12 @@
         <script src="script/scriptValidacion.js"></script>
         <script src="script/scriptModo.js"></script>
         <script src="script/scriptMostrarOno.js"></script>
+        <script src="script/scriptPeliculas.js"></script>
+        <script src="script/scriptContadorVisitas.js"></script>
+        <script src="script/scriptTemporizador.js"></script>
+        <script src="script/scriptHabilidades.js"></script>
+        <script src="script/script.js"></script>
+
+        
     </body>
 </html>

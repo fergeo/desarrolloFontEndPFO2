@@ -1,0 +1,34 @@
+/*Modo Oscuro*/
+body.modo-oscuro {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+}
+
+body.modo-oscuro header {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.modo-oscuro main {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.modo-oscuro nav {
+    background-color: #444;
+}
+
+body.modo-oscuro section {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.modo-oscuro form {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.modo-oscuro footer {
+    background-color: #222;
+    color: #eee;
+}

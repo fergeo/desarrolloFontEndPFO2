@@ -62,27 +62,27 @@ unhideProyectos.addEventListener('click', () => {
 
 const hideHabilidades = document.getElementById("hideHabilidades");
 const unhideHabilidades = document.getElementById("unhideHabilidades");
-const tablaHabilidades = document.getElementById("tablaHabilidades");
+const tabla = document.getElementById("tablaHabilidades");
 
 unhideHabilidades.style.display = 'none';
 
 hideHabilidades.addEventListener('click', () => {
-    if (tablaHabilidades.style.display === 'none') {
-        tablaHabilidades.style.display = 'block';
+    if (tabla.style.display === 'none') {
+        tabla.style.display = 'block';
     } else {
-        tablaHabilidades.style.display = 'none';
+        tabla.style.display = 'none';
         hideHabilidades.style.display = 'none';
         unhideHabilidades.style.display = 'block';
     }
 });
 
 unhideHabilidades.addEventListener('click', () => {
-    if (tablaHabilidades.style.display === 'none') {
-        tablaHabilidades.style.display = 'block';
+    if (tabla.style.display === 'none') {
+        tabla.style.display = 'block';
         hideHabilidades.style.display = 'block';
         unhideHabilidades.style.display = 'none';
     } else {
-        tablaHabilidades.style.display = 'none';
+        tabla.style.display = 'none';
     }
 });
 
