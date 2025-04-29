@@ -25,7 +25,8 @@ Checklist - Práctica Formativa Obligatoria 2
 - [X] Generar dinámicamente las tarjetas, el listado de habilidades o las películas favoritas utilizando datos de un array en JavaScript.
 
 # 8. Filtros en el Contenido:
-- [ ] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
+- [X] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
+El filtrado de hace de forma dinamica a menida que se ingresa un texto en el imput, busca las peliculas que contectan el texto ingresado.
 
 # 9. Temporizador o Reloj:
 - [X] Incluir un temporizador que indique el tiempo restante para la entrega del trabajo práctico.
