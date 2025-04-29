@@ -35,6 +35,6 @@ El filtrado de hace de forma dinamica a menida que se ingresa un texto en el imp
 - [X] Implementar un contador de visitas a la página utilizando JavaScript y LocalStorage.
 
 # 11. Animaciones Dinámicas:
-- [ } Usar JavaScript para agregar animaciones a elementos específicos, como las tarjetas o los botones.
+- [X] Usar JavaScript para agregar animaciones a elementos específicos, como las tarjetas o los botones.
 
 
