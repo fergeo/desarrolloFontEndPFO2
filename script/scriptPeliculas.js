@@ -1,9 +1,9 @@
 //consumo de api movie db
 const apiKey = '02a836944430b48cf79647737764b191';
-const url = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=es-ES&page=1`;
-
+const url = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=es-ES`;
 const url_img = "https://image.tmdb.org/t/p/w200";
 const query = 'Inception';
+
 let page = 1;
 let indice = 0;
 
@@ -20,8 +20,8 @@ const getData = async ()=>{
 }  
 
 
-const containerWrite = (results)=>{
-    for (result of results){
+const containerWrite = (resultado)=>{
+    for (result of resultado){
         const movieCard = document.createElement("div");
         movieCard.innerHTML = `
                     <div class="pelicula">
@@ -79,3 +79,5 @@ document.addEventListener("DOMContentLoaded",async ()=>{
     const results = await getData();
     containerWrite(results.slice(0,3));
 });
+
+

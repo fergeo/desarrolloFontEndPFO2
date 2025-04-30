@@ -1,0 +1,18 @@
+/*Sección Footer*/
+footer{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.imgRedes{
+    padding-left: 10%;
+    border-radius: 25px;
+    height: 5%;
+    width: 5%;
+}
+
+#pagina{
+    font-size: 2rem;
+}

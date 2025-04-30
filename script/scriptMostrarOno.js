@@ -18,7 +18,10 @@ hideSobreMi.addEventListener('click', () => {
 
 unhideSobreMi.addEventListener('click', () => {
     if (contenidoSobreMi.style.display === 'none') {
-        contenidoSobreMi.style.display = 'block';
+        //contenidoSobreMi.style.display = 'block';
+        contenidoSobreMi.style.display = "flex";
+        contenidoSobreMi.style.flexDirection = "row";
+        contenidoSobreMi.id = 'contenidoSobreMi';
         hideSobreMi.style.display = 'block';
         unhideSobreMi.style.display = 'none';
     } else {
@@ -29,7 +32,6 @@ unhideSobreMi.addEventListener('click', () => {
 
 
 // Para ocultar o no la sección de Proyectos.
-
 const hideProyectos = document.getElementById("hideProyectos");
 const unhideProyectos = document.getElementById("unhideProyectos");
 const contenidoProyectos = document.getElementById("contenidoProyectos");
@@ -117,10 +119,11 @@ unhideContacto.addEventListener('click', () => {
 
 
 // Para ocultar o no la sección de Peliculas Favoritas
-
 const hidePeliculas = document.getElementById("hidePeliculas");
 const unhidePeliculas = document.getElementById("unhidePeliculas");
 const peliculasFatvoritas = document.getElementById("peliculasFatvoritas");
+const btnPeliculas = document.getElementById("btnPeliculas");
+const buscar = document.getElementById("buscar");
 
 unhidePeliculas.style.display = 'none';
 
@@ -129,6 +132,8 @@ hidePeliculas.addEventListener('click', () => {
         peliculasFatvoritas.style.display = 'block';
     } else {
         peliculasFatvoritas.style.display = 'none';
+        btnPeliculas.style.display = 'none';
+        buscar.style.display = 'none';
         hidePeliculas.style.display = 'none';
         unhidePeliculas.style.display = 'block';
     }
@@ -136,7 +141,11 @@ hidePeliculas.addEventListener('click', () => {
 
 unhidePeliculas.addEventListener('click', () => {
     if (peliculasFatvoritas.style.display === 'none') {
-        peliculasFatvoritas.style.display = 'block';
+        btnPeliculas.style.display = 'block';
+        buscar.style.display = 'block';
+        //peliculasFatvoritas.style.display = 'block';
+        peliculasFatvoritas.style.display = "flex";
+        peliculasFatvoritas.style.flexDirection = "row";
         hidePeliculas.style.display = 'block';
         unhidePeliculas.style.display = 'none';
     } else {

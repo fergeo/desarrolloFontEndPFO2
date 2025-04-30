@@ -17,27 +17,3 @@ if (localStorage.getItem('theme') === 'dark') {
 
 
 
-
-
-const adquiridas = ["HTML", "CSS", "JavaScript", "PL/SQL"];
-const deseadas = ["React", "Vue", "Tailwind", "AWS Cloud"];
-const habilidades = document.getElementById("habilidades");
-
-
-const tablaHabilidades = () => {
-    const totalFilas = adquiridas.length;
-
-    for (let i = 0; i < totalFilas; i++) {
-        const fila = document.createElement('tr');
-
-        let celda = document.createElement('td');
-        celda.textContent = adquiridas[i];
-        fila.appendChild(celda);
-
-        celda = document.createElement('td');
-        celda.textContent = deseadas[i];
-        fila.appendChild(celda);
-
-        habilidades.appendChild(fila);
-    }
-}

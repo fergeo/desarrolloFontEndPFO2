@@ -1,8 +1,9 @@
 /*Estilo para la sección de peliculas favoritas*/
 #peliculasFatvoritas{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    padding-left: 2%;
+    padding-bottom: 1%;
 }
 
 #btnPeliculas{
@@ -32,23 +33,34 @@
 
 .card-container{
     width: 40%;
-    height: 10%;
-    justify-content: space-between;
 }
 
 .pelicula{
-    width: 60%;
-    height: 5%;
+    width: 70%;
+    height: 100%;
     border-radius: 5%;
     text-align: center;
-    background-color: white;
+    background-color: brown;
 }
 
 .imgFavoritas{
     width: 60%;
     height: 5%;
+    margin-top: 5%;
 }
 
 .card-ditail{
     text-align: justify;
+    padding: 0 5% 2% 5%; 
 }
+
+#buscar{
+    display: flexbox;
+    flex-direction: row;
+    padding-bottom: 3%;
+}
+
+#buscador{
+    width: 20%;
+}
+

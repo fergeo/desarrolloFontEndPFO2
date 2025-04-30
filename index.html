@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Raleway:ital,wght@0,100..900;1,100..900&family=Underdog&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         <!--Link para obtener la imagenes de los iconos de las redes sociales-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">-->
 
         <!--Asociación al archivo de estilos CSS.-->
         <!--Estilos generales de la pagina-->
@@ -18,21 +18,24 @@
         <!--Estilos que generan el modo oscuro-->
         <link rel="stylesheet" href="css/modoOscuro.css">
         <!--Estilos de la sección Sobre Mi-->
-        <link rel="stylesheet" href="css/sobreNi.css">
+        <link rel="stylesheet" href="css/sobreMi.css">
+        <!--Estilos de la sección Proyectos-->
+        <link rel="stylesheet" href="css/proyectos.css">
         <!--Estilos de la sección Habilidades-->
         <link rel="stylesheet" href="css/habilidades.css">
         <!--Estilos de la sección Contacto-->
         <link rel="stylesheet" href="css/contacto.css">
         <!--Estilos de la sección Peliculas Favoritas-->
         <link rel="stylesheet" href="css/peliculas.css">
-        
+        <!--Estilos de la sección Peliculas Footer-->
+        <link rel="stylesheet" href="css/footer.css">
 
         <title>Portfolio Personal</title>
     </head>
     <body>
         
-        <header>
-            <div class="titulo">
+        <header id="cabecera">
+            <div id="titulo">
                 <h1>Portfolio Personal</h1>
             </div>
 
@@ -54,11 +57,21 @@
 
                 <nav>
                     <!--Barra de navegacion de las secciones del Portfolio-->
-                    <a href="#sobreMi">Sobre mí"</a>
-                    <a href="#proyectos">Proyectos</a>
-                    <a href="#habilidades">Habilidades</a>
-                    <a href="#contacto">Contacto</a>
-                    <a href="#peliculas">Peliculas</a>
+                    <button class="navegacion">
+                        <a href="#sobreMi">Sobre Mí</a>
+                    </button>
+                    <button class="navegacion">
+                        <a href="#proyectos">Proyectos</a>
+                    </button>
+                    <button class="navegacion">
+                        <a href="#habilidades">Habilidades</a>
+                    </button>
+                    <button class="navegacion">
+                        <a href="#contacto">Contacto</a>
+                    </button>
+                    <button class="navegacion">
+                        <a href="#peliculas">Peliculas</a>
+                    </button>
                 </nav>
             </div>
         </header>
@@ -80,7 +93,7 @@
                     <h2>Sobre Mi</h2>    
                 </div>
                 <div id="contenidoSobreMi">
-                    <img src="img/sobreMi.jpg" alt="Imagen sobre Mi">
+                    <img src="img/sobreMi.jpg" alt="Imagen sobre Mi" id="imagenSobreMi">
                     <p id="parrafoSobreMi" class="texto">
                         Soy Fernando Espindola desarrollador PL/SQL hace 9 años, interiorisandome tambien en el desarrollo Web      
                         por lo tanto incursionando en lo que es HTML, CSS, Javascript y aprendiendo React.                          <br>
@@ -167,6 +180,11 @@
                     <p id="pagina">Pagina 1</p>
                 </div>  
 
+                <div id="buscar">
+                    <label for="buscador">Filtrar Peliculas:</label>
+                    <input type="text" id="buscador" placeholder="Busar categoria">
+                </div>
+
                 <div id="peliculasFatvoritas">
                 <!--
                         <div class="pelicula">
@@ -202,15 +220,18 @@
             <h2>Redes Sociales</h2>
             <div id="redesSociales">
                 <a href="https://www.instagram.com/fernando_espindola_o/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
+                    <!--<i class="fa-brands fa-instagram"></i>-->
+                    <img src="img/instagram.jpg" alt="Instagram" class="imgRedes">
                 </a>
 
                 <a href="https://www.linkedin.com/in/fernandoespindolaomastott/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <!--<i class="fa-brands fa-linkedin"></i>-->
+                    <img src="img/linkedin.png" alt="LinkedIn" class="imgRedes">
                 </a>
 
                 <a href="https://github.com/fergeo" target="_blank">
-                    <i class="fa-brands fa-github"></i>
+                    <!--<i class="fa-brands fa-github"></i>-->
+                    <img src="img/github.png" alt="Github" class="imgRedes">
                 </a>
             </div>
         </footer>
@@ -223,7 +244,8 @@
         <script src="script/scriptTemporizador.js"></script>
         <script src="script/scriptHabilidades.js"></script>
         <script src="script/script.js"></script>
-
+        <script src="script/scriptFiltrarCategoria.js"></script>
+        <script src="script/scriptAnimacion.js"></script>
         
     </body>
 </html>
