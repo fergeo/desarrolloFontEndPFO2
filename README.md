@@ -34,6 +34,8 @@ Para que se muestren diferentes peliculas se utilizo la API de TMDB que es sobre
 # 7. Creación de Contenido Dinámico:
 - [X] Generar dinámicamente las tarjetas, el listado de habilidades o las películas favoritas utilizando datos de un array en JavaScript.
 Esto se va creando desde JavaScrpt cada parte correspondiente a las tarjetas.
+El filtrado solo muestra hasta tres resultados, ya que no se realizo que se pueda avanzar los resultados, y si luego del filtrado se le da a siguiente
+vuelve a mostrar todo ootra vez.
 
 # 8. Filtros en el Contenido:
 - [X] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
@@ -53,5 +55,6 @@ Cuenta las visitas que tiene la pagina.
 
 # Modificaciones con el proyecto anterior.
 - Se dividio en diferentes archivos los estilos que corresponde a cada sección, para los archivos de estilo bi seaab tab estebsis.
+- Se modifico en la barra de navegacion que tenga un hover y focus, y que cada uno de los items de la barra de navegación sea un boton.
 
 
