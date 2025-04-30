@@ -51,6 +51,8 @@ Cuenta las visitas que tiene la pagina.
 
 # 11. Animaciones Dinámicas:
 - [X] Usar JavaScript para agregar animaciones a elementos específicos, como las tarjetas o los botones.
+Se agrego una animación de parpadeo al titulo principal.
+Y tambien se le agrego a la sección de peluclas favoritas un zoom-in.
 
 
 # Modificaciones con el proyecto anterior.
