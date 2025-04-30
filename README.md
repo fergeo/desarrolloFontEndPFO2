@@ -20,26 +20,26 @@ Esto se implementa cambiando color de fondo y que el color de letra se pueda ver
 # 3. Pop-up de Confirmación de Envío:
 - [X] Mostrar un pop-up que indique que el formulario se envió correctamente.
 Se realizo la ventana en una porción del codigo html y se lo invoca segun sea necesario cuando los campos del formulario estan correctamente cargados.
-      
+
 # 4. Ocultar y/o Mostrar Contenido:
 - [X] Crear un botón que permita ocultar o mostrar contenido en cualquier sección, como en la presentación personal o las tarjetas.
 Se implemento agregando una imagen que hace referencia si va a ocultar o mostrar la seccion, en caso de ocultar solo queda el titulo.
 
 # 6. Galería de Imágenes:
 - [X] Implementar una galería dinámica con imágenes que se puedan navegar (por ejemplo, utilizando flechas para avanzar o retroceder).
-Se bavega las peliculas de peliculas favoritas, a medida que se avanza o se retrocecede con los botones de anterior o siguiente segun correspoonda
+Se navega las peliculas de peliculas favoritas, a medida que se avanza o se retrocecede con los botones de anterior o siguiente segun correspoonda
 tabiem incrementa o decrementa el número de pagina segun corresponda.
 Para que se muestren diferentes peliculas se utilizo la API de TMDB que es sobre peliculas, pero tiene un limite de peliculas.
 
 # 7. Creación de Contenido Dinámico:
 - [X] Generar dinámicamente las tarjetas, el listado de habilidades o las películas favoritas utilizando datos de un array en JavaScript.
 Esto se va creando desde JavaScrpt cada parte correspondiente a las tarjetas.
-El filtrado solo muestra hasta tres resultados, ya que no se realizo que se pueda avanzar los resultados, y si luego del filtrado se le da a siguiente
-vuelve a mostrar todo ootra vez.
 
 # 8. Filtros en el Contenido:
 - [X] Crear un sistema de filtros (por ejemplo, en la galería de imágenes o las tarjetas) para mostrar contenido específico según ciertas categorías.
 El filtrado de hace de forma dinamica a menida que se ingresa un texto en el imput, busca las peliculas que contectan el texto ingresado.
+El filtrado solo muestra hasta tres resultados, ya que no se realizo que se pueda avanzar los resultados, y si luego del filtrado se le da a siguiente
+vuelve a mostrar todo ootra vez.
 
 # 9. Temporizador o Reloj:
 - [X] Incluir un temporizador que indique el tiempo restante para la entrega del trabajo práctico.
