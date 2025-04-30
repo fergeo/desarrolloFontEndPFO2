@@ -58,4 +58,6 @@ Cuenta las visitas que tiene la pagina.
 - Se modifico en la barra de navegacion que tenga un hover y focus, y que cada uno de los items de la barra de navegación sea un boton.
 - Se cambio los iconos de redes sociales por imagenes para poder personalizarlas con mayor facilidad.
 
+Versión anterior:
+![Screenshot 2025-04-30 at 15-36-00 Portfolio Personal](https://github.com/user-attachments/assets/fd057080-4763-40be-be60-ffca0989af9d)
 
