@@ -56,5 +56,6 @@ Cuenta las visitas que tiene la pagina.
 # Modificaciones con el proyecto anterior.
 - Se dividio en diferentes archivos los estilos que corresponde a cada sección, para los archivos de estilo bi seaab tab estebsis.
 - Se modifico en la barra de navegacion que tenga un hover y focus, y que cada uno de los items de la barra de navegación sea un boton.
+- Se cambio los iconos de redes sociales por imagenes para poder personalizarlas con mayor facilidad.
 
 
